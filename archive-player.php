@@ -1,7 +1,10 @@
 <?php
 
 get_header(); 
-pageBanner();
+pageBanner(array(
+  'title' => 'All Players',
+  'subtitle' => 'See all our players.'
+));
 ?>
 
 
